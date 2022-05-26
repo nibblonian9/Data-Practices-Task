@@ -1,6 +1,6 @@
 # Data Task
 
-As a **Data Analyst** / **Data Engineer** at **Stacknexus**, you will be actively involved in computing various metrics and building visualisations, dashboards and reports through different tools.
+As a **Data Engineer** at **Stacknexus**, you will be actively involved in integrating data from various sources (Kafka, Redshift, SQL, excel/csv files) to our datalake through different tools.
 
 Here is one sample task that we will be working on at the data practices team. We would need you to work on the task mentioned below for the next 7 days (Starting from the date of receipt of this email) and present the results to us during your final round of interview.
 
@@ -20,7 +20,9 @@ The data contains all fire service reports, fire incidents, fire safety checks a
 
 ## Task
 
-Using the provided data, you must import the csv tables to any SQL server of your choice (MySQL, PostgreSQL, etc.), clean up the data and look for any anomalies and compute the following metrics as table views (more points for additional metrics) and visualise them for each metric.
+Using the provided data, you must import the csv tables to any SQL server of your choice (MySQL, PostgreSQL, etc.) (added points if you can do the job on spark (pyspark, sparklyr, or basic spark-submit, etc.)), clean up the data and look for any anomalies and compute the following metrics as table views (more points for additional metrics) and visualise them for each metric.
+
+The data is till March, 2022. You can also extract current data from the fire department opendata api (https://data.sfgov.org/Public-Safety/Fire-Incidents/wr8u-xric). Try to see if you can connect it with the live API.
 
 ### Metrics
 
